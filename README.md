@@ -12,7 +12,9 @@ The compilation was tested with GNU Fortran (GCC) 6.3.1
 
 1. Compile the subroutine golmod.f95: 
 ```gfortran -c golmod.95```
+
 2. Compile the main.f95 with your netcdf.mod:
 ```gfortran -o main main.95 golmod.o -lnetcdff```
+
 3. Run the program
 ```./main```
